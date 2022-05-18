@@ -1,6 +1,6 @@
 import './App.css';
-import Board from './Board'
-import Ship from './Ship'
+import Board from './components/Board/Board.js'
+import Ship from './components/Ship/Ship.js'
 
 function App() {
   return (
