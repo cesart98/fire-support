@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.Board {
+  background-color: pink;
+  display: grid;
+  grid: repeat(10, 1fr) / repeat(10, 1fr);
+  place-items: stretch;
+  aspect-ratio: 1 / 1;
+  max-width: 400px;
+}
+
+.Board > .Square {
+  background-color: white;
+  border: solid black 1px;
+}
