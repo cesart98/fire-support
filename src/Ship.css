@@ -1,0 +1,11 @@
+.Ship {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  width: 10%;
+}
+
+.Ship > div {
+  border: solid black 1px;
+  aspect-ratio: 1 / 1;
+}
