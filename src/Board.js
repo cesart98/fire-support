@@ -1,131 +1,114 @@
+import './Board.css';
+
+function Square() {
+  return (
+    <div className="Square"></div>
+  );
+}
+
 function Board() {
-  function Square() {
-    return (
-      <div className="square"></div>
-    );
-  }
   return (
     <div className="Board">
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
-      <div className="board-row">
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-        <Square></Square>
-      </div>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
+      <Square></Square>
     </div>
   );
 }
