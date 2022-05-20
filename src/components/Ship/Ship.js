@@ -1,5 +1,4 @@
 import './Ship.css';
-
 function Ship() {
   return (
     <div className="Ship">

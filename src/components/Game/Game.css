@@ -1,0 +1,26 @@
+.Game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgb(201, 201, 201);
+  height: 300px;
+}
+
+.Game > div {
+  flex: 1 0 0;
+  display: flex;
+  flex-direction: row;
+  aspect-ratio: 1 / 1;
+  
+}
+
+.Game > .board-container {
+  justify-content: start;
+  align-items: stretch;
+}
+
+.Game > .ship-container {
+  justify-content: space-between;
+  align-items: center;
+}
